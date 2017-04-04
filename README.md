@@ -1,7 +1,7 @@
 # Leetcode_01
 Leetcode practice: 20170404~
 
-Hard:0/10   Medium:0/60  Easy:2/30
+Hard:0/10------------------Medium:0/60-----------------Easy:2/30
 
 #|Titile           |Solution                                       |Difficulty|Best runing time(ms)|Line of code|
 -|-----------------|-----------------------------------------------|----------|--------------------|------------|
