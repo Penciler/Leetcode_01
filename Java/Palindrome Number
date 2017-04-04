@@ -1,0 +1,42 @@
+public class Solution {
+    public boolean isPalindrome(int x) {
+        long k=0L;
+        int ai=0;
+        if(x>0){
+           k=(long)x; 
+        }
+        else{
+           k=-((long)x);
+        }
+        
+        long i=0L;
+        
+        if(k==0){
+           i=0;
+        }
+        else{
+            while(k!=0){
+              i=10*i+k%10;
+              k=(k-k%10)/10;
+           } 
+        }
+        
+       
+        if(i>2147483647 && x>0){
+            return false;
+        }
+        else if(i>2147483648L && x<=0){
+            return false;
+        }
+        else{
+            if(x>=0 && x==(int) i){
+                
+                return true;
+            }
+            else{
+                return false;
+            }
+        }
+        
+    }
+}
