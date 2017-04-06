@@ -1,0 +1,51 @@
+public class Solution {
+    public int romanToInt(String s) {
+        int i=s.length();
+        int k=s.length();
+        int sum=0;
+        int[] j=new int[i];
+        while(i>0){
+            switch(s.charAt(i-1)){
+                case 'M':
+                   j[i-1]=1000;
+                   break;
+                case 'D':
+                   j[i-1]=500;
+                   break;
+                case 'C':
+                   j[i-1]=100;
+                   break;
+                case 'L':
+                   j[i-1]=50;
+                   break;
+                case 'X':
+                   j[i-1]=10;
+                   break;
+                case 'V':
+                   j[i-1]=5;
+                   break;
+                case 'I':
+                   j[i-1]=1;
+                   break;
+                default:
+                   break;
+            }
+            
+            if(i==k){
+                sum=sum+j[i-1];
+            }
+            else if(j[i-1]>=j[i]){
+                sum=sum+j[i-1];
+            }
+            else{
+                sum=sum-j[i-1];
+            }
+            
+                
+            
+            i--;
+        }
+        
+        return sum;
+    }
+}
