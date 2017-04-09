@@ -9,3 +9,4 @@ Hard:0/2------------------Medium:0/12-----------------Easy:4/6
 7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/#/description)|[Java](https://github.com/Penciler/Leetcode_01/blob/master/Java/7.%20Reverse%20Integer) |Easy      |47                  |45          |
 9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/#/description)|[Java, copy #7](https://github.com/Penciler/Leetcode_01/blob/master/Java/9.%20Palindrome%20Number) |Easy      |321               |42          |
 13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/#/description) |[Java](https://github.com/Penciler/Leetcode_01/blob/master/Java/13.%20Roman%20to%20Integer)|Easy   |103             |51          |
+14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/#/description)|Debuging|Easy | | |
