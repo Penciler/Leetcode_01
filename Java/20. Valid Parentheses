@@ -1,11 +1,9 @@
 import java.util.Stack;
-
 public class Solution {
     public boolean isValid(String s) {
     //try stack
     //push pop empty search peek
-    Stack<Character> stack=new Stack<Character>();
-    
+    Stack<Character> stack=new Stack<Character>();    
     //1.get rid of blank by toCharArray
     for(char c:s.toCharArray()){
     //2.get char in the char array
@@ -20,13 +18,9 @@ public class Solution {
        }
        else{
            return false;
-       }
-       
+       }      
     }
     //6.the stack will be empty if the input is valid
-    return stack.empty();
-    
-    
-    
+    return stack.empty();    
    }
 }
