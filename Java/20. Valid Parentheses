@@ -1,0 +1,32 @@
+import java.util.Stack;
+
+public class Solution {
+    public boolean isValid(String s) {
+    //try stack
+    //push pop empty search peek
+    Stack<Character> stack=new Stack<Character>();
+    
+    //1.get rid of blank by toCharArray
+    for(char c:s.toCharArray()){
+    //2.get char in the char array
+       if("([{".contains(String.valueOf(c))){
+    //3.put char in stack if it's left half Parentheses 
+          stack.push(c);
+       }
+    //4.if not, compare it to the char in the stack
+       else if(!stack.empty() && ((stack.peek()=='(' && c==')')||(stack.peek()=='[' && c==']')||(stack.peek()=='{' && c=='}'))){
+    //5.if valid, pop the stack
+           stack.pop();
+       }
+       else{
+           return false;
+       }
+       
+    }
+    //6.the stack will be empty if the input is valid
+    return stack.empty();
+    
+    
+    
+   }
+}
