@@ -11,3 +11,4 @@ Hard:0/2------------------Medium:0/12-----------------Easy:6/6
 13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/#/description) |[Java](https://github.com/Penciler/Leetcode_01/blob/master/Java/13.%20Roman%20to%20Integer)|Easy   |103             |51          |
 14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/#/description)|Debuging|Easy | | |
 20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/#/description)|[Java, not original](https://github.com/Penciler/Leetcode_01/blob/master/Java/20.%20Valid%20Parentheses)|Easy  |12  |18   |
+2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/#/description)|Try again|Medium|||
