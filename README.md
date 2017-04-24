@@ -18,3 +18,8 @@ Hard:0/2------------------Medium:7/12-----------------Easy:6/6
 11|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/#/submissions/1)|[Java](https://github.com/Penciler/Leetcode_01/blob/master/Java/11.%20Container%20With%20Most%20Water)|Medium|11|19|
 12|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/#/description)|Debuging|Medium|||
 15|[3Sum](https://leetcode.com/problems/3sum/#/description)|Debuging|Medium|||
+16|[3Sum Closest](https://leetcode.com/problems/3sum-closest/#/description)||Medium|||
+17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/#/description)||Medium|||
+18|[4Sum](https://leetcode.com/problems/4sum/#/description)||Medium|||
+19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/#/description)||Medium|||
+22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/#/description)||Medium|||
