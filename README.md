@@ -1,7 +1,7 @@
 # Leetcode_01
 Leetcode practice: 20170404~
 
-Hard:0/2------------------Medium:5/12-----------------Easy:6/6
+Hard:0/2------------------Medium:7/12-----------------Easy:6/6
 
 #|Titile           |Solution                                       |Difficulty|Best runing time(ms)|Line of code|
 -|-----------------|-----------------------------------------------|----------|--------------------|------------|
@@ -16,3 +16,5 @@ Hard:0/2------------------Medium:5/12-----------------Easy:6/6
 6|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/#/description)|Try again|Medium|||
 8|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/#/description)|Try again|Medium|||
 11|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/#/submissions/1)|[Java](https://github.com/Penciler/Leetcode_01/blob/master/Java/11.%20Container%20With%20Most%20Water)|Medium|11|19|
+12|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/#/description)|Debuging|Medium|||
+15|[3Sum](https://leetcode.com/problems/3sum/#/description)|Debuging|Medium|||
